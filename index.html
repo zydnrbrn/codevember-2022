@@ -1,0 +1,149 @@
+<html class="scroll-smoth" lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codevember - Showtime to show your skills in code!</title>
+    <link rel="stylesheet" href="src/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+<link rel="stylesheet" href="dist/output.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body>
+      
+      
+      <!--navbar start-->
+    <div class="bg-gray-100">
+      <header class="sticky top-0 z-30 w-full px-2 py-4 dark:bg-black bg-black shadow-xl shadow-black-600/20 sm:px-4">
+        <div class="flex items-center justify-between mx-auto max-w-7xl">
+          <a href="#">
+              <img class="absolute top-3 w-14" src="src/img/logo.png">
+            <span class="text-xs mx-10 font-code sm:text-base font-extrabold text-white uppercase">Codevember</span>
+          </a>
+          <div class="flex items-center space-x-1">
+            <ul class="hidden space-x-2 md:inline-flex font-utama">
+              <li><a href="#home" class="px-4 py-2 font-semibold text-white rounded">Home</a></li>
+              <li><a href="#" class="px-4 py-2 font-semibold text-white rounded">Course</a></li>
+              <li><a href="#" class="px-4 py-2 font-semibold text-white rounded">About</a></li>
+              <li><a href="#" class="px-4 py-2 font-semibold text-white rounded">Blogs</a></li>
+            </ul>
+            <div class="inline-flex md:hidden" x-data="{ open: false }">
+             
+              <button class="flex-none px-2 " @click="open = true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+                </svg>
+                <span class="sr-only">Open Menu</span>
+              </button>
+              <div
+                class="absolute top-0 left-0 right-0 z-50 flex flex-col p-2 pb-4 m-2 space-y-3 bg-black/50 rounded shadow"
+                x-show.transition="open" @click.away="open = false" x-cloak>
+                <button class="self-end flex-none px-2 ml-2" @click="open = false">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                  <span class="sr-only">Close Menu</span>
+                </button>
+                <ul class="space-y-2 font-utama">
+                  <li><a href="#home" class="px-4 py-2 font-semibold text-white text-xs rounded">Home</a></li>
+                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">Course</a></li>
+                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">About</a></li>
+                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">Blogs</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+        </div>
+<!--navbar end-->
+
+<!--content start-->
+    <div class="hero-parallax" id="home">
+ <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl mx-32 sm:mx-48 mt-48 absolute text-white uppercase font-code">Codevember</h1>
+ <button class="h-8 border hover:bg-white sm:w-48 sm:mx-64 md:w-56 md:h-10
+ button-registration bg-indigo-700 rounded-md w-40 text-white font-bold font-ubuntu text-xs sm:text-base md:text-xl md:mx-64 md:top-72 top-60 mx-48 relative uppercase" 
+ ><p class="hover:text-black">Registration Now !</p></button>
+</div>
+<div class="hero-text bg-black h-48" id="hero-text">
+</div>
+<div class="hero-small pb-10 color-change-4x">
+</div>
+ <div class="hero-text bg-black h-48">
+         <marquee width="50%" class='text-white font-code mt-20 absolute mx-32 sm:mx-48 text-2xl'>GOT THE REWARDS</marquee>
+     <marquee width="50%" class='text-white font-code mt-10 absolute mx-32 text-2xl'>BE THE BEST</marquee>
+ 
+</div>
+<div class="content-primary color-change-4x">
+    <div class="md:flex absolute ">
+        <div class="w-[300px] h-[270px] mt-10 bg-white mx-4 sm:w-[600px] md:w-[300px] lg:w-[500px] rounded-md reveal">
+            <img class="w-[300px] h-[250px] mx-auto" src="https://source.unsplash.com/300x250?cyberpunk" />
+        </div>
+        <div class="w-[300px] h-48 mx-4 mt-10 bg-white sm:w-[600px] md:w-[400px] md:h-[270px] lg:w-[750px] rounded-md reveal">
+            <h1 class="font-code uppercase text-base mt-7 mx-4 absolute"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, blanditiis?</h1>
+        </div>
+        
+    </div>
+</div>
+<div class="content-primary color-change-4x">
+    <div class="md:flex absolute ">
+        <div class="w-[300px] h-[270px] mt-10 bg-white mx-4 sm:w-[600px] md:w-[300px] lg:w-[500px] rounded-md reveal-1">
+            <img class="w-[300px] h-[250px] mx-auto" src="https://source.unsplash.com/300x250?cyberpunk" />
+        </div>
+        <div class="w-[300px] h-48 mx-4 mt-10 bg-white sm:w-[600px] md:w-[400px] md:h-[270px] lg:w-[750px] rounded-md reveal-1">
+            <h1 class="font-code uppercase text-base mt-7 mx-4 absolute"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, blanditiis?</h1>
+        </div>
+        
+    </div>
+</div>
+<div class="see-content bg-black h-[100px]">
+    <button class="h-8 border mt-[50px] hover:bg-white sm:w-48 sm:mx-64 md:w-56 md:h-10
+ button-registration bg-indigo-700 rounded-md w-40 text-white font-bold font-ubuntu text-xs sm:text-base md:text-xl md:mx-64 md:top-72 top-60 mx-48  uppercase" 
+ ><p class="hover:text-black">SEE ALL</p></button>
+ <div class="md:flex">
+     
+
+  <div class="w-[300px] h-[270px] mt-10 bg-black mx-4 sm:w-[600px] md:w-[300px] lg:w-[500px] rounded-md reveal-1">
+            <img class="w-[300px] h-[250px] mx-auto" src="https://source.unsplash.com/300x250?cyberpunk" />
+        </div>
+  <div class="w-[300px] h-[270px] mt-10 bg-black mx-4 sm:w-[600px] md:w-[300px] lg:w-[500px] rounded-md reveal-1">
+            <img class="w-[300px] h-[250px] mx-auto" src="https://source.unsplash.com/300x250?cyberpunk" />
+        </div>
+         </div>
+         
+<!--footer start-->
+
+<footer class="p-4 bg-black rounded-lg shadow md:px-6 md:py-8 mt-10 ">
+    <div class="sm:flex sm:items-center sm:justify-between">
+       <a href="#">
+              <img class="absolute top-3 w-14" src="src/img/logo.png">
+            <span class="text-xs mx-10 font-code sm:text-base font-extrabold text-white uppercase">Codevember</span>
+          </a>
+      <ul class="space-y-2 flex font-utama">
+                  <li><a href="#home" class="px-4 py-2 font-semibold text-white text-xs rounded">Home</a></li>
+                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">Course</a></li>
+                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">About</a></li>
+                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">Blogs</a></li>
+                </ul>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="#" class="hover:underline">Codevember™</a>. All Rights Reserved.
+    </span>
+</footer>
+
+
+<!--footer end-->
+
+</div>
+
+    <!--content end-->
+    <script src="src/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/32a7939dce.js" crossorigin="anonymous"></script>
+  </body>
+</html>

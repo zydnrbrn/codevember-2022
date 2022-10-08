@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Pacifico&family=Press+Start+2P&family=Righteous&family=Secular+One&family=Ubuntu&display=swap');
+
+.font-code {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.font-inter {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.font-secular {
+    font-family: 'Secular One', sans-serif;
+}
+
+.font-pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.font-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.font-righteous {
+    font-family: 'Righteous', cursive;
+}
+
+.hero-parallax {
+    min-height: 500px;
+    background-image: url("../img/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-primary {
+     min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.reveal-1{
+  position: relative;
+  transform: translateX(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal-1.active{
+  transform: translateX(0);
+  opacity: 1;
+}
+
+@-webkit-keyframes color-change-4x {
+  0% {
+    background: #000000;
+  }
+  33.3333% {
+    background: #ffffff;
+  }
+  66.666% {
+    background: rgb(67 56 202 );
+  }
+  100% {
+    background: #3a10f5;
+  }
+}
+@keyframes color-change-4x {
+  0% {
+    background: #000000;
+  }
+  33.3333% {
+    background: #ffffff;
+  }
+  66.666% {
+    background: rgb(67 56 202 );
+  }
+  100% {
+    background: #3a10f5;
+  }
+}
+
+.color-change-4x {
+	-webkit-animation: color-change-4x 6s linear infinite alternate both;
+	        animation: color-change-4x 6s linear infinite alternate both;
+}
