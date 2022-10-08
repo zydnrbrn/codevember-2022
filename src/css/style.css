@@ -56,13 +56,13 @@
 
 .reveal-1{
   position: relative;
-  transform: translateX(150px);
+  transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
 .reveal-1.active{
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
 }
 
