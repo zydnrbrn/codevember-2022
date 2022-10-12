@@ -1,4 +1,4 @@
-<html class="scroll-smoth" lang="en">
+<html class="scroll-smooth" lang="en">
 
   <head>
     <meta charset="UTF-8">
@@ -21,15 +21,15 @@
       <header class="sticky top-0 z-30 w-full px-2 py-4 dark:bg-black bg-black shadow-xl shadow-black-600/20 sm:px-4">
         <div class="flex items-center justify-between mx-auto max-w-7xl">
           <a href="#">
-              <img class="absolute top-3 w-14" src="src/img/logo.png">
+              <img class="absolute top-[5px] w-14" src="src/img/logo.png">
             <span class="text-xs mx-10 font-code sm:text-base font-extrabold text-white uppercase">Codevember</span>
           </a>
           <div class="flex items-center space-x-1">
             <ul class="hidden space-x-2 md:inline-flex font-utama">
-              <li><a href="#home" class="px-4 py-2 font-semibold text-white rounded">Home</a></li>
-              <li><a href="#" class="px-4 py-2 font-semibold text-white rounded">Course</a></li>
-              <li><a href="#" class="px-4 py-2 font-semibold text-white rounded">About</a></li>
-              <li><a href="#" class="px-4 py-2 font-semibold text-white rounded">Blogs</a></li>
+              <li><a href="#" class="px-4 py-2 font-semibold text-white rounded">Home</a></li>
+              <li><a href="#event" class="px-4 py-2 font-semibold text-white rounded">Events</a></li>
+              <li><a href="#schedule" class="px-4 py-2 font-semibold text-white rounded">Schedule</a></li>
+             
             </ul>
             <div class="inline-flex md:hidden" x-data="{ open: false }">
              
@@ -52,9 +52,9 @@
                 </button>
                 <ul class="space-y-2 font-utama">
                   <li><a href="#home" class="px-4 py-2 font-semibold text-white text-xs rounded">Home</a></li>
-                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">Course</a></li>
-                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">About</a></li>
-                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">Blogs</a></li>
+                  <li><a href="#event" class="px-4 py-2 font-semibold text-white text-xs rounded">Events</a></li>
+                  <li><a href="#schedule" class="px-4 py-2 font-semibold text-white text-xs rounded">Schedule</a></li>
+
                 </ul>
               </div>
             </div>
@@ -66,9 +66,9 @@
 
 <!--content start-->
     <div class="hero-parallax" id="home">
- <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl mx-32 sm:mx-48 mt-48 absolute text-white uppercase font-code">Codevember</h1>
+ <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl mx-[70px] sm:mx-48 absolute top-[200px] text-white uppercase font-code">Codevember</h1>
  <button class="h-8 border hover:bg-white sm:w-48 sm:mx-64 md:w-56 md:h-10
- button-registration bg-indigo-700 rounded-md w-40 text-white font-bold font-ubuntu text-xs sm:text-base md:text-xl md:mx-64 md:top-72 top-60 mx-48 relative uppercase" 
+ button-registration bg-indigo-700 rounded-md w-40 text-white font-bold font-ubuntu text-xs sm:text-base md:text-xl md:mx-64 md:top-72 top-60 mx-[130px] relative uppercase" 
  ><p class="hover:text-black">Registration Now !</p></button>
 </div>
 <div class="hero-text bg-black h-48" id="hero-text">
@@ -76,11 +76,11 @@
 <div class="hero-small pb-10 color-change-4x">
 </div>
  <div class="hero-text bg-black h-48">
-         <marquee width="50%" class='text-white font-code mt-20 absolute mx-32 sm:mx-48 text-2xl'>GOT THE REWARDS</marquee>
+     <marquee width="50%" class='text-white font-code mt-20 absolute mx-32 sm:mx-48 text-2xl'>GOT THE REWARDS</marquee>
      <marquee width="50%" class='text-white font-code mt-10 absolute mx-32 text-2xl'>BE THE BEST</marquee>
  
 </div>
-<div class="content-primary color-change-4x">
+<div class="content-primary color-change-4x"  id="event">
     <div class="md:flex absolute ">
         <div class="w-[300px] h-[270px] mt-10 bg-white mx-4 sm:w-[600px] md:w-[300px] lg:w-[500px] rounded-md reveal">
             <img class="w-[300px] h-[250px] mx-auto" src="https://source.unsplash.com/300x250?cyberpunk" />
@@ -93,17 +93,17 @@
 </div>
 <div class="content-primary color-change-4x">
     <div class="md:flex absolute ">
-        <div class="w-[300px] h-[270px] mt-10 bg-white mx-4 sm:w-[600px] md:w-[300px] lg:w-[500px] rounded-md reveal-1">
+        <div class="w-[300px] h-[270px] mt-[40px] md:mt-[1px] bg-white mx-4 sm:w-[600px] md:w-[300px] lg:w-[500px] rounded-md reveal-1">
             <img class="w-[300px] h-[250px] mx-auto" src="https://source.unsplash.com/300x250?cyberpunk" />
         </div>
-        <div class="w-[300px] h-48 mx-4 mt-10 bg-white sm:w-[600px] md:w-[400px] md:h-[270px] lg:w-[750px] rounded-md reveal-1">
+        <div class="w-[300px] h-48 mx-4 md:mt-[1px] bg-white sm:w-[600px] md:w-[400px] md:h-[270px] lg:w-[750px] rounded-md reveal-1">
             <h1 class="font-code uppercase text-base mt-7 mx-4 absolute"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, blanditiis?</h1>
         </div>
         
     </div>
 </div>
 <div class="see-content bg-black h-[100px]">
-    <button class="h-8 border mt-[50px] hover:bg-white sm:w-48 sm:mx-64 md:w-56 md:h-10
+    <button  id="schedule" class="h-8 border mt-[50px] hover:bg-white sm:w-48 sm:mx-64 md:w-56 md:h-10
  button-registration bg-indigo-700 rounded-md w-40 text-white font-bold font-ubuntu text-xs sm:text-base md:text-xl md:mx-64 md:top-72 top-60 mx-48  uppercase" 
  ><p class="hover:text-black">SEE ALL</p></button>
  <div class="md:flex">
@@ -119,17 +119,16 @@
          
 <!--footer start-->
 
-<footer class="p-4 bg-black rounded-lg shadow md:px-6 md:py-8 mt-10 ">
+<footer class="p-4 bg-black rounded-t-lg shadow md:px-6 md:py-8 mt-10 ">
     <div class="sm:flex sm:items-center sm:justify-between">
        <a href="#">
               <img class="absolute top-3 w-14" src="src/img/logo.png">
             <span class="text-xs mx-10 font-code sm:text-base font-extrabold text-white uppercase">Codevember</span>
           </a>
       <ul class="space-y-2 flex font-utama">
-                  <li><a href="#home" class="px-4 py-2 font-semibold text-white text-xs rounded">Home</a></li>
-                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">Course</a></li>
-                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">About</a></li>
-                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">Blogs</a></li>
+                  <li><a href="#" class="px-4 py-2 font-semibold text-white text-xs rounded">Home</a></li>
+                  <li><a href="#event" class="px-4 py-2 font-semibold text-white text-xs rounded">Events</a></li>
+                  <li><a href="#schedule" class="px-4 py-2 font-semibold text-white text-xs rounded">Schedule</a></li>
                 </ul>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
